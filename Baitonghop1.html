@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tồng hợp 1</title>
+</head>
+<body>
+    <form action="#" method="post"></form>
+    <fieldset>
+        <legend>Thông tin sản phẩm</legend>
+        <label>Tên sản phẩm:</label>
+        <input type="text" id="Productname" name="Productname"required>
+        <label>Số lượng:</label>
+        <input type="number" id="quantily" name="quantiluy"required>
+    </fieldset>
+
+    <fieldset>
+        <legend>Thông tin giao hàng</legend><br>
+        <label>Họ và tên:</label>
+        <input type="text" id="fullname" name="fullname"required>
+        <label>Email:</label>
+        <input type="email" id="email" name="email"required>
+        <label>Số điện thoại:</label>
+        <input type="number" id="phone" name="phone"required>
+        <label>Địa chỉ:</label>
+        <textarea type="text" rows="3"></textarea> 
+    </fieldset>
+    
+    <fieldset>
+        <legend>Thông tin thanh toán</legend>
+        <label for="paymentinformation">Phương thức thanh toán</label>
+        <select id="paymentinformation"name="paymentinformation">
+            <option value="payment on delivery">Thanh toán khi nhận hàng</option>
+            <option value="credit">Thanh toán bằng thẻ</option>
+            <option value="banking">Chuyển khoản</option>
+        </select>
+    </fieldset>
+    <input type="submit" value="Đặt hàng">
+</body>
+</html>
